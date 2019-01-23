@@ -1,0 +1,7 @@
+((category lang-exts)
+ (license "BSD")
+ (test-dependencies simple-tests)
+ (author "Juergen Lorenz")
+ (synopsis "Some simple looping macros")
+ (version "1.0.4")
+ (components (extension loops)))

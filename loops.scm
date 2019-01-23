@@ -35,7 +35,7 @@
 ; 
 (module loops *
 
-(import scheme (only chicken unless case-lambda print))
+(import scheme (chicken base))
 
 (define-syntax do-times
   (syntax-rules ()

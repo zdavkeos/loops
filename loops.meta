@@ -1,9 +1,0 @@
-;;;; loops.meta -*- Scheme -*-
-
-((synopsis "Some simple looping macros")
- (category lang-exts)
- (license "BSD")
- (test-depends simple-tests)
- (author "Juergen Lorenz")
- (files "loops.release-info" "loops.scm" "loops.setup"
-"loops.meta" "tests/run.scm"))
