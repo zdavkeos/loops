@@ -1,0 +1,9 @@
+;;;; loops.setup -*- Scheme -*-
+
+(compile -O3 -s -d1 loops.scm -J)
+(compile -O3 -d0 -s loops.import.scm)
+
+(install-extension
+ 'loops
+ '("loops.so" "loops.import.so")
+ '((version "1.0.4")))
